@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is html form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</lavel>
+        <div>
+            <input type="text" name="myname" id="name">
+
+        </div>
+        <br>
+        <div>
+            Roll:<input type="text" name="myroll">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myEmail" required>
+
+        </div>
+        <br>
+
+        <div>
+
+            Date<input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Number:<input type="number" name="mynumber"placeholder="you can enter only number" pattern="0-9A-Z">
+        </div>
+        <div>
+            <label for="ss">Are you eligible?</label>
+            
+            <input type="checkbox" name  ="say" id="ss"c> 
+            <label for="yy" >you are not eligible</label>
+            
+            <input type="checkbox" name="say" id="yy"checked>
+        </div>
+        <div>
+            Gender:<input type="radio" name="mygender"checked> Male <input type="radio" name="mygender"> Female <input
+                type="radio" name="mygender">Others
+        </div>
+        <div>
+            Write about yourself:<br> <textarea name="mytext" cols="50" rows="10"></textarea>
+        </div>
+        <br><br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="ind" selected>Indica</option>
+                <option value="swt">Swift</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <datalist id=rr>
+                <option>Sayem</option>
+                <option >Samira</option>
+                <option >Saiful</option>
+            </datalist>
+            Student:<input type="text" name="sabiha" list="rr">
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
